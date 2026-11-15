@@ -1,0 +1,2000 @@
+```html
+<!DOCTYPE html>
+<html lang="bn" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>•তোমার জন্য</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts: Noto Serif Bengali, Tiro Bangla, Hind Siliguri & Cormorant Garamond -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Hind+Siliguri:wght@300;400;500;600&family=Noto+Serif+Bengali:wght@400;500;600;700&family=Tiro+Bangla:ital@0;1&display=swap" rel="stylesheet" />
+
+  <!-- Baked Configuration Data (Updated automatically when exporting the standalone HTML) -->
+  <script id="surprise-config-data" type="application/json">
+  {
+    "recipientName": "তুবা",
+    "targetDateTime": "2026-11-16T00:00:00+06:00",
+    "letterBody": "হেমন্তের এই শান্ত, শিশিরভেজা রাতে—যখন কার্তিকের শেষ প্রহর পেরিয়ে প্রকৃতি এক অদ্ভুত স্নিগ্ধতায় ডুবে থাকে, ঠিক তখনই ক্যালেন্ডারের পাতায় ফিরে আসে ১৬ নভেম্বর। আমার কাছে দিনটি কেবল একটি তারিখ নয়; বরং আকাশের অসংখ্য নক্ষত্রের ভিড়ে একটি বিশেষ আলোর পৃথিবীতে আসার গল্প।\n\nমানুষের জীবনে কিছু নাম থাকে, যা উচ্চারণ করলে মনের ভেতর অকারণেই এক পশলা দখিনা বাতাস বয়ে যায়। ‘তুবা’—নামটির মাঝেই যেন লুকিয়ে আছে স্বর্গীয় কোনো এক প্রশান্তি, এক স্নিগ্ধ ছায়া। তুমি যেমন নীরবে, নিজের মতো করে চারপাশটাকে সুন্দর করে রাখো, ঠিক যেন রাতের আকাশে ফুটে থাকা একাকী কোনো জুঁই ফুল—যার সুবাস পাওয়া যায়, অথচ তাকে ছোঁয়ার সাধ্য সবার থাকে না।\n\nএই বিশেষ দিনে তোমাকে কী উপহার দেব, তা ভেবে কোনো পার্থিব বস্তুই যেন যথেষ্ট মনে হয়নি। ফুল শুকিয়ে যায়, সময়ের সাথে সাথে রঙ ফিকে হয়ে আসে; কিন্তু অনুভূতি আর সুর—তা থেকে যায় অনন্তকাল। তাই আজকের এই রাতের সবটুকু নীরবতা, জ্যোৎস্নার স্নিগ্ধতা আর অক্ষরের মায়া দিয়ে তোমার জন্য এই ছোট্ট জগৎটি সাজিয়েছি। এমনকি এখানে যে সুরটি বাজছে, তার প্রতিটি স্বরলিপিও বোনা হয়েছে শুধু তোমার নামের অক্ষরগুলোকে ছুঁয়ে।\n\nনতুন এই বছরে তোমার প্রতিটি সকাল হোক শিশিরধোয়া শিউলির মতো পবিত্র। তোমার চোখের কোণে কখনো যেন ক্লান্তির ছায়া না নামে, আর তোমার হাসিটি যেন ঠিক এভাবেই—কোনো এক অজানা মায়ায়—পৃথিবীকে আরও একটু সুন্দর করে রাখে। জীবনের প্রতিটি বাঁকে তুমি খুঁজে পাও নিজের মতো করে বেঁচে থাকার আনন্দ, আর তোমার সব না-বলা স্বপ্নগুলো ডানা মেলুক নীল আকাশের সীমানায়।\n\nসব সম্পর্ককে নাম দিতে নেই, সব মুগ্ধতাকে প্রকাশ করতে নেই—কিছু ভালোলাগা দূর থেকে নক্ষত্রের মতো জ্বলজ্বল করলেই বেশি সুন্দর থাকে। ভালো থেকো তুবা, ভীষণ ভালো থেকো।",
+    "letterClosing": "শুভ জন্মদিন, তুবা।",
+    "letterSignature": "— নক্ষত্রের আড়াল থেকে, শুধু তোমারই এক শুভাকাঙ্ক্ষী",
+    "customAudioDataUrl": "",
+    "customAudioName": "তুবার নামের সুরলিপি (T · U · B · A Nocturne)",
+    "isFinalRecipientBuild": false
+  }
+  </script>
+
+  <style>
+    :root {
+      --plum-deep: #0c0818;
+      --plum-mid: #19102c;
+      --plum-velvet: #22153b;
+      --champagne-pearl: #fdf6f0;
+      --rose-gold: #f4b8c8;
+      --rose-deep: #d9829b;
+      --antique-gold: #e6c37a;
+      --parchment-bg: #fcf7ee;
+      --ink-plum: #2b1e2e;
+    }
+
+    * {
+      box-sizing: border-box;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      background:
+        radial-gradient(circle at 18% 12%, rgba(244, 184, 200, 0.11) 0%, transparent 42%),
+        radial-gradient(circle at 82% 24%, rgba(168, 124, 214, 0.12) 0%, transparent 46%),
+        radial-gradient(circle at 50% 85%, rgba(230, 195, 122, 0.08) 0%, transparent 50%),
+        linear-gradient(165deg, #0c0818 0%, #140d26 48%, #19102c 100%);
+      color: var(--champagne-pearl);
+      font-family: 'Hind Siliguri', sans-serif;
+      overflow-x: hidden;
+    }
+
+    .font-serif-bn {
+      font-family: 'Noto Serif Bengali', 'Tiro Bangla', serif;
+    }
+
+    .font-poetic-bn {
+      font-family: 'Tiro Bangla', 'Noto Serif Bengali', serif;
+    }
+
+    .font-sans-bn {
+      font-family: 'Hind Siliguri', sans-serif;
+    }
+
+    .font-cormorant {
+      font-family: 'Cormorant Garamond', serif;
+    }
+
+    /* Frosted Velvet & Rose-Gold Glass Card */
+    .twilight-glass {
+      background: linear-gradient(155deg, rgba(33, 21, 56, 0.66), rgba(16, 10, 31, 0.78));
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+      border: 1px solid rgba(244, 184, 200, 0.24);
+      box-shadow:
+        0 24px 56px rgba(5, 3, 12, 0.62),
+        inset 0 1px 0 rgba(253, 246, 240, 0.14);
+    }
+
+    /* Rose-Gold & Moonlit Champagne Shimmer Text */
+    .rose-gold-shimmer {
+      background: linear-gradient(
+        115deg,
+        #e6c37a 0%,
+        #f4b8c8 26%,
+        #fdf6f0 50%,
+        #f4b8c8 74%,
+        #e6c37a 100%
+      );
+      background-size: 220% auto;
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      animation: shimmerFlow 6s linear infinite;
+    }
+
+    @keyframes shimmerFlow {
+      0% { background-position: 0% center; }
+      100% { background-position: 220% center; }
+    }
+
+    /* Gentle Celestial & Botanical Animations */
+    @keyframes orbitClockwise {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    @keyframes orbitCounter {
+      from { transform: rotate(360deg); }
+      to { transform: rotate(0deg); }
+    }
+
+    @keyframes softLevitate {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-7px); }
+    }
+
+    @keyframes sealGlow {
+      0%, 100% {
+        box-shadow:
+          0 0 0 0 rgba(244, 184, 200, 0.42),
+          0 12px 35px rgba(217, 130, 155, 0.35);
+      }
+      50% {
+        box-shadow:
+          0 0 0 15px rgba(244, 184, 200, 0),
+          0 16px 46px rgba(230, 195, 122, 0.48);
+      }
+    }
+
+    .animate-orbit-slow {
+      animation: orbitClockwise 56s linear infinite;
+    }
+
+    .animate-orbit-reverse {
+      animation: orbitCounter 72s linear infinite;
+    }
+
+    .animate-levitate {
+      animation: softLevitate 5.5s ease-in-out infinite;
+    }
+
+    .rose-seal-btn {
+      animation: sealGlow 3.4s infinite ease-in-out;
+      transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1), filter 0.35s ease;
+    }
+
+    .rose-seal-btn:hover {
+      transform: scale(1.06);
+      filter: brightness(1.07);
+    }
+
+    .rose-seal-btn:active {
+      transform: scale(0.97);
+    }
+
+    /* Silk Curtain Entry Veil */
+    #entry-veil {
+      transition:
+        opacity 1.45s cubic-bezier(0.22, 1, 0.36, 1),
+        transform 1.45s cubic-bezier(0.22, 1, 0.36, 1),
+        visibility 1.45s;
+    }
+
+    #entry-veil.veil-lifted {
+      opacity: 0;
+      transform: translateY(-4%) scale(1.03);
+      visibility: hidden;
+      pointer-events: none;
+    }
+
+    /* T-U-B-A Musical Cryptogram Orbs */
+    .note-orb {
+      transition: all 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+      border: 1px solid rgba(244, 184, 200, 0.28);
+      background: radial-gradient(circle at 30% 30%, rgba(253, 246, 240, 0.14), rgba(20, 13, 38, 0.78));
+    }
+
+    .note-orb.orb-lit {
+      transform: scale(1.16) translateY(-4px);
+      border-color: rgba(253, 246, 240, 0.92);
+      background: radial-gradient(circle at 35% 30%, #fdf6f0 0%, #f4b8c8 48%, #c76d89 100%);
+      color: #1d0f24;
+      box-shadow:
+        0 0 28px rgba(244, 184, 200, 0.8),
+        0 0 54px rgba(230, 195, 122, 0.45);
+    }
+
+    .note-orb.orb-lit .orb-sub {
+      color: #361938;
+    }
+
+    /* Waveform Visualizer Bars */
+    .wave-bar {
+      width: 3px;
+      height: 6px;
+      border-radius: 999px;
+      background: linear-gradient(to top, #d9829b, #f4b8c8, #e6c37a);
+      transition: height 0.2s ease;
+    }
+
+    .wave-active .wave-bar:nth-child(1) { animation: waveDance 0.95s ease-in-out infinite; }
+    .wave-active .wave-bar:nth-child(2) { animation: waveDance 0.72s ease-in-out infinite 0.12s; }
+    .wave-active .wave-bar:nth-child(3) { animation: waveDance 1.08s ease-in-out infinite 0.24s; }
+    .wave-active .wave-bar:nth-child(4) { animation: waveDance 0.82s ease-in-out infinite 0.08s; }
+    .wave-active .wave-bar:nth-child(5) { animation: waveDance 0.98s ease-in-out infinite 0.28s; }
+    .wave-active .wave-bar:nth-child(6) { animation: waveDance 0.76s ease-in-out infinite 0.18s; }
+    .wave-active .wave-bar:nth-child(7) { animation: waveDance 1.02s ease-in-out infinite 0.34s; }
+
+    @keyframes waveDance {
+      0%, 100% { height: 5px; }
+      50% { height: 22px; }
+    }
+
+    /* Custom Range Slider for Volume */
+    input[type="range"].rose-slider {
+      -webkit-appearance: none;
+      appearance: none;
+      height: 4px;
+      background: rgba(244, 184, 200, 0.22);
+      border-radius: 999px;
+      outline: none;
+    }
+
+    input[type="range"].rose-slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #fdf6f0, #f4b8c8);
+      border: 1px solid #e6c37a;
+      cursor: pointer;
+      box-shadow: 0 0 10px rgba(244, 184, 200, 0.6);
+    }
+
+    /* 3D Luxury Velvet Envelope */
+    .envelope-perspective {
+      perspective: 1500px;
+    }
+
+    .velvet-envelope {
+      position: relative;
+      background: linear-gradient(155deg, #27173f 0%, #190f2b 58%, #120a20 100%);
+      border: 1px solid rgba(230, 195, 122, 0.36);
+      box-shadow:
+        0 28px 65px rgba(4, 2, 10, 0.75),
+        inset 0 0 45px rgba(244, 184, 200, 0.08);
+      transition: transform 0.7s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.7s ease;
+    }
+
+    .velvet-flap {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 58%;
+      background: linear-gradient(180deg, #321e50 0%, #201336 100%);
+      clip-path: polygon(0 0, 50% 100%, 100% 0);
+      transform-origin: top center;
+      transition: transform 0.95s cubic-bezier(0.4, 0, 0.2, 1);
+      z-index: 20;
+      border-top: 1px solid rgba(230, 195, 122, 0.45);
+    }
+
+    .envelope-opened .velvet-flap {
+      transform: rotateX(180deg);
+      z-index: 1;
+    }
+
+    .envelope-opened .seal-medallion {
+      opacity: 0;
+      transform: scale(0.75) rotate(-12deg);
+    }
+
+    .pocket-left {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(42, 26, 66, 0.92) 0%, rgba(22, 13, 38, 0.96) 100%);
+      clip-path: polygon(0 0, 52% 54%, 0 100%);
+      z-index: 10;
+      pointer-events: none;
+    }
+
+    .pocket-right {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(225deg, rgba(42, 26, 66, 0.92) 0%, rgba(22, 13, 38, 0.96) 100%);
+      clip-path: polygon(100% 0, 48% 54%, 100% 100%);
+      z-index: 10;
+      pointer-events: none;
+    }
+
+    .pocket-bottom {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(0deg, #160d26 0%, #281842 100%);
+      clip-path: polygon(0 100%, 50% 47%, 100% 100%);
+      z-index: 12;
+      pointer-events: none;
+    }
+
+    /* Deckle-Edged Warm Ivory Parchment Letter */
+    .parchment-sheet {
+      background:
+        radial-gradient(circle at 15% 15%, rgba(244, 184, 200, 0.14) 0%, transparent 45%),
+        radial-gradient(circle at 85% 85%, rgba(230, 195, 122, 0.16) 0%, transparent 50%),
+        linear-gradient(180deg, #fdf9f2 0%, #fcf7ee 52%, #f7efe1 100%);
+      color: var(--ink-plum);
+      border: 1px solid rgba(230, 195, 122, 0.65);
+      box-shadow:
+        0 32px 85px rgba(5, 3, 14, 0.78),
+        0 0 0 6px rgba(252, 247, 238, 0.08),
+        inset 0 0 55px rgba(214, 178, 125, 0.22);
+      transition: opacity 0.9s ease, transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    /* Stanza-by-Stanza Ink Fade-In */
+    .letter-stanza {
+      opacity: 0;
+      transform: translateY(14px);
+      transition: opacity 0.95s ease, transform 0.95s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    .letter-stanza.stanza-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #0c0818;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: rgba(244, 184, 200, 0.32);
+      border-radius: 999px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: rgba(244, 184, 200, 0.58);
+    }
+  </style>
+</head>
+<body class="antialiased selection:bg-pink-300/30 selection:text-pink-100">
+
+  <!-- Full-Screen Interactive Twilight Canvas (Stars, Fireflies, Shiuli & Blossom Petals, Touch Trail, Fireworks) -->
+  <canvas id="twilight-canvas" class="fixed inset-0 w-full h-full pointer-events-none z-0"></canvas>
+
+  <!-- Soft Aurora Rose-Lavender Atmospheric Glows -->
+  <div class="fixed inset-0 pointer-events-none z-0 overflow-hidden">
+    <div class="absolute -top-28 left-1/2 -translate-x-1/2 w-[92vw] max-w-4xl h-96 rounded-full bg-[#f4b8c8]/[0.07] blur-[130px]"></div>
+    <div class="absolute top-1/3 -left-24 w-80 h-80 rounded-full bg-purple-400/[0.07] blur-[120px]"></div>
+    <div class="absolute bottom-10 -right-20 w-96 h-96 rounded-full bg-[#e6c37a]/[0.06] blur-[130px]"></div>
+  </div>
+
+  <!-- Non-Intrusive Custom Toast Banner -->
+  <div id="toast-banner" class="fixed top-5 left-1/2 -translate-x-1/2 z-[100] pointer-events-none opacity-0 -translate-y-4 transition-all duration-500 max-w-[92vw]">
+    <div class="twilight-glass px-5 py-2.5 rounded-full border border-[#f4b8c8]/40 flex items-center gap-2.5 shadow-2xl">
+      <span class="w-2 h-2 rounded-full bg-[#f4b8c8] animate-ping"></span>
+      <span id="toast-message" class="text-xs sm:text-sm font-sans-bn text-[#fdf6f0] tracking-wide"></span>
+    </div>
+  </div>
+
+  <!-- =====================================================================
+       1. SILK ENTRY VEIL ("রহস্যময় প্রবেশদ্বার")
+       ===================================================================== -->
+  <section
+    id="entry-veil"
+    class="fixed inset-0 z-50 flex flex-col items-center justify-center px-6 text-center bg-gradient-to-b from-[#0c0818]/98 via-[#140d26]/96 to-[#19102c]/98 backdrop-blur-2xl"
+  >
+    <!-- Delicate Floral & Celestial Line-Art Frame -->
+    <div class="relative flex items-center justify-center mb-7">
+      <!-- Outer Botanical Wreath & Star Ring -->
+      <svg class="w-60 h-60 sm:w-72 sm:h-72 text-[#f4b8c8]/30 animate-orbit-slow" viewBox="0 0 260 260" fill="none">
+        <circle cx="130" cy="130" r="118" stroke="currentColor" stroke-width="0.8" stroke-dasharray="3 6" />
+        <circle cx="130" cy="130" r="102" stroke="#e6c37a" stroke-opacity="0.25" stroke-width="0.7" />
+        <!-- Four Cardinal Jasmine/Shiuli Petals -->
+        <path d="M130 8C134 18 134 26 130 32C126 26 126 18 130 8Z" fill="#f4b8c8" fill-opacity="0.55" />
+        <path d="M130 252C134 242 134 234 130 228C126 234 126 242 130 252Z" fill="#f4b8c8" fill-opacity="0.55" />
+        <path d="M8 130C18 134 26 134 32 130C26 126 18 126 8 130Z" fill="#f4b8c8" fill-opacity="0.55" />
+        <path d="M252 130C242 134 234 134 228 130C234 126 242 126 252 130Z" fill="#f4b8c8" fill-opacity="0.55" />
+      </svg>
+
+      <!-- Inner Crescent Moon & Starlight Filigree -->
+      <svg class="absolute w-44 h-44 sm:w-52 sm:h-52 text-[#e6c37a]/35 animate-orbit-reverse" viewBox="0 0 200 200" fill="none">
+        <circle cx="100" cy="100" r="84" stroke="currentColor" stroke-width="0.8" stroke-dasharray="1 5" />
+        <circle cx="100" cy="16" r="2.4" fill="#f4b8c8" />
+        <circle cx="184" cy="100" r="2" fill="#e6c37a" />
+        <circle cx="100" cy="184" r="2.4" fill="#f4b8c8" />
+        <circle cx="16" cy="100" r="2" fill="#e6c37a" />
+      </svg>
+
+      <!-- Glowing Rose-Gold & Champagne Wax-Seal Button -->
+      <button
+        id="unveil-btn"
+        type="button"
+        aria-label="উন্মোচন করো"
+        class="rose-seal-btn absolute w-32 h-32 sm:w-36 sm:h-36 rounded-full flex flex-col items-center justify-center cursor-pointer border-2 border-[#fdf6f0]/75 bg-gradient-to-br from-[#fdf6f0] via-[#f4b8c8] to-[#c9728d] text-[#231026] shadow-2xl focus:outline-none"
+      >
+        <span class="absolute inset-2 rounded-full border border-[#4a1d35]/25 pointer-events-none"></span>
+        <!-- Delicate Blossom & Sparkle Icon -->
+        <svg class="w-6 h-6 mb-1 text-[#3a162b]" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 2C13.4 6.2 14.8 7.6 19 9C14.8 10.4 13.4 11.8 12 16C10.6 11.8 9.2 10.4 5 9C9.2 7.6 10.6 6.2 12 2ZM19 15C19.7 17.1 20.4 17.8 22.5 18.5C20.4 19.2 19.7 19.9 19 22C18.3 19.9 17.6 19.2 15.5 18.5C17.6 17.8 18.3 17.1 19 15Z" />
+        </svg>
+        <span class="font-serif-bn font-bold text-base sm:text-lg tracking-wide">উন্মোচন করো</span>
+      </button>
+    </div>
+
+    <!-- Poetic Welcome Copy -->
+    <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/[0.04] border border-[#f4b8c8]/25 text-xs sm:text-sm text-[#f4b8c8] tracking-widest mb-4 font-sans-bn">
+      <span>১৬ নভেম্বর ২০২৬ · এক গোপন অধ্যায়</span>
+    </div>
+
+    <h1 class="font-serif-bn text-2xl sm:text-4xl md:text-5xl font-semibold text-[#fdf6f0] max-w-2xl leading-snug mb-3.5">
+      একটি নীরব কবিতা... <span class="rose-gold-shimmer">শুধু তুবার জন্য</span>
+    </h1>
+
+    <p class="font-poetic-bn text-sm sm:text-lg text-[#fdf6f0]/80 max-w-md leading-relaxed">
+      রাতের আকাশ আর সুরের মায়ায় সাজানো তোমার জন্মদিনের ছোট্ট উপহার
+    </p>
+  </section>
+
+  <!-- =====================================================================
+       DISCREET CREATOR CUSTOMIZATION TRIGGER (REMOVED ON FINAL EXPORT)
+       ===================================================================== -->
+  <button
+    id="creator-trigger"
+    type="button"
+    title="সারপ্রাইজ কাস্টমাইজ করুন"
+    class="fixed top-4 right-4 z-40 opacity-45 hover:opacity-100 twilight-glass px-3.5 py-1.5 rounded-full flex items-center gap-1.5 text-xs text-[#fdf6f0] border border-[#f4b8c8]/30 transition-all duration-300 cursor-pointer shadow-lg"
+  >
+    <!-- Delicate Feather Quill Icon -->
+    <svg class="w-3.5 h-3.5 text-[#f4b8c8]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z" />
+      <line x1="16" y1="8" x2="2" y2="22" />
+      <line x1="17.5" y1="15" x2="9" y2="15" />
+    </svg>
+    <span class="font-sans-bn">কাস্টমাইজ</span>
+  </button>
+
+  <!-- =====================================================================
+       MAIN POETIC EXPERIENCE
+       ===================================================================== -->
+  <main id="main-experience" class="relative z-10 max-w-3xl mx-auto px-4 sm:px-6 pt-14 sm:pt-20 pb-28 flex flex-col items-center">
+
+    <!-- 2. HERO SECTION: CELESTIAL CRESCENT & FLORAL HALO FOR "তুবা" -->
+    <header class="w-full text-center mb-14 sm:mb-20">
+      <div class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full twilight-glass text-xs sm:text-sm text-[#f4b8c8] mb-8">
+        <span class="w-1.5 h-1.5 rounded-full bg-[#e6c37a]"></span>
+        <span class="font-sans-bn tracking-wider">১৬ নভেম্বর ২০২৬ • হেমন্তের জ্যোৎস্নার রাত</span>
+        <span class="w-1.5 h-1.5 rounded-full bg-[#e6c37a]"></span>
+      </div>
+
+      <!-- Luminous Crescent Moon & Floral Halo Frame -->
+      <div class="relative max-w-xl mx-auto py-10 px-6 sm:py-12 sm:px-12 rounded-[2rem] twilight-glass animate-levitate overflow-hidden">
+        <!-- Decorative Corner Botanical Filigree -->
+        <svg class="absolute top-3 left-3 w-12 h-12 text-[#e6c37a]/45 pointer-events-none" viewBox="0 0 60 60" fill="none">
+          <path d="M6 48C6 24 24 6 48 6" stroke="currentColor" stroke-width="1" />
+          <circle cx="14" cy="14" r="2.2" fill="#f4b8c8" />
+          <path d="M18 8C21 12 21 16 18 20C15 16 15 12 18 8Z" fill="#f4b8c8" fill-opacity="0.5" />
+        </svg>
+        <svg class="absolute top-3 right-3 w-12 h-12 text-[#e6c37a]/45 rotate-90 pointer-events-none" viewBox="0 0 60 60" fill="none">
+          <path d="M6 48C6 24 24 6 48 6" stroke="currentColor" stroke-width="1" />
+          <circle cx="14" cy="14" r="2.2" fill="#f4b8c8" />
+          <path d="M18 8C21 12 21 16 18 20C15 16 15 12 18 8Z" fill="#f4b8c8" fill-opacity="0.5" />
+        </svg>
+        <svg class="absolute bottom-3 left-3 w-12 h-12 text-[#e6c37a]/45 -rotate-90 pointer-events-none" viewBox="0 0 60 60" fill="none">
+          <path d="M6 48C6 24 24 6 48 6" stroke="currentColor" stroke-width="1" />
+          <circle cx="14" cy="14" r="2.2" fill="#f4b8c8" />
+        </svg>
+        <svg class="absolute bottom-3 right-3 w-12 h-12 text-[#e6c37a]/45 rotate-180 pointer-events-none" viewBox="0 0 60 60" fill="none">
+          <path d="M6 48C6 24 24 6 48 6" stroke="currentColor" stroke-width="1" />
+          <circle cx="14" cy="14" r="2.2" fill="#f4b8c8" />
+        </svg>
+
+        <!-- Crescent Moon & Starlight Crest Above Name -->
+        <div class="relative flex items-center justify-center mb-3">
+          <svg class="w-20 h-20 text-[#e6c37a]" viewBox="0 0 80 80" fill="none">
+            <circle cx="40" cy="40" r="34" stroke="#f4b8c8" stroke-opacity="0.28" stroke-width="0.9" stroke-dasharray="2 4" />
+            <!-- Graceful Crescent Moon -->
+            <path
+              d="M45 21C35.5 23.2 28.5 31.8 28.5 42C28.5 53.9 38.1 63.5 50 63.5C53.2 63.5 56.2 62.8 58.9 61.5C55.1 65.2 49.9 67.5 44.2 67.5C32.5 67.5 23 58 23 46.3C23 34.6 32.5 25.1 44.2 25.1C44.5 25.1 44.7 25.1 45 25.1V21Z"
+              fill="url(#moonGold)"
+            />
+            <!-- Twinkling Star Beside Crescent -->
+            <path d="M53 24L54.8 29.2L60 31L54.8 32.8L53 38L51.2 32.8L46 31L51.2 29.2L53 24Z" fill="#fdf6f0" />
+            <defs>
+              <linearGradient id="moonGold" x1="23" y1="21" x2="59" y2="67" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#fdf6f0" />
+                <stop offset="50%" stop-color="#f4b8c8" />
+                <stop offset="100%" stop-color="#e6c37a" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+
+        <p class="font-sans-bn text-xs sm:text-sm tracking-[0.22em] text-[#f4b8c8]/85 uppercase mb-1">
+          নক্ষত্রের আলোয় আঁকা একটি নাম
+        </p>
+
+        <!-- Recipient Name ("তুবা") -->
+        <h2
+          id="hero-recipient-name"
+          class="font-serif-bn text-5xl sm:text-7xl font-bold rose-gold-shimmer leading-tight py-1 tracking-wide"
+        >
+          তুবা
+        </h2>
+
+        <!-- Ornamental Divider -->
+        <div class="flex items-center justify-center gap-3 my-4">
+          <span class="h-[1px] w-16 sm:w-24 bg-gradient-to-r from-transparent via-[#f4b8c8]/60 to-[#e6c37a]/80"></span>
+          <svg class="w-4 h-4 text-[#f4b8c8]" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2C13.5 7 17 10.5 22 12C17 13.5 13.5 17 12 22C10.5 17 7 13.5 2 12C7 10.5 10.5 7 12 2Z" />
+          </svg>
+          <span class="h-[1px] w-16 sm:w-24 bg-gradient-to-l from-transparent via-[#f4b8c8]/60 to-[#e6c37a]/80"></span>
+        </div>
+
+        <p class="font-poetic-bn text-base sm:text-xl text-[#fdf6f0]/90 leading-relaxed">
+          “কিছু নাম কেবল শব্দ নয়, এক একটি সম্পূর্ণ কবিতা...”
+        </p>
+      </div>
+    </header>
+
+    <!-- 3. LIVE MIDNIGHT COUNTDOWN / CELEBRATION BANNER -->
+    <section aria-label="মধ্যরাতের প্রহর গণনা" class="w-full mb-16 sm:mb-22">
+      <!-- Pre-Midnight Countdown Cards -->
+      <div id="countdown-container" class="text-center">
+        <p class="font-sans-bn text-xs sm:text-sm tracking-[0.2em] text-[#f4b8c8]/85 uppercase mb-2">
+          ১৬ নভেম্বর ২০২৬ · মধ্যরাতের অপেক্ষা
+        </p>
+        <h3 class="font-serif-bn text-xl sm:text-2xl text-[#fdf6f0] mb-7">
+          তোমার বিশেষ প্রহর শুরু হতে আর মাত্র...
+        </h3>
+
+        <div class="grid grid-cols-4 gap-2.5 sm:gap-5 max-w-xl mx-auto">
+          <!-- Days -->
+          <div class="twilight-glass rounded-2xl p-3.5 sm:p-6 flex flex-col items-center justify-center border-[#f4b8c8]/25">
+            <span id="cd-days" class="font-cormorant text-3xl sm:text-5xl font-semibold text-[#fdf6f0] tracking-tight">00</span>
+            <span class="font-sans-bn text-xs sm:text-sm text-[#f4b8c8] mt-1.5">দিন</span>
+          </div>
+          <!-- Hours -->
+          <div class="twilight-glass rounded-2xl p-3.5 sm:p-6 flex flex-col items-center justify-center border-[#f4b8c8]/25">
+            <span id="cd-hours" class="font-cormorant text-3xl sm:text-5xl font-semibold text-[#fdf6f0] tracking-tight">00</span>
+            <span class="font-sans-bn text-xs sm:text-sm text-[#f4b8c8] mt-1.5">ঘণ্টা</span>
+          </div>
+          <!-- Minutes -->
+          <div class="twilight-glass rounded-2xl p-3.5 sm:p-6 flex flex-col items-center justify-center border-[#f4b8c8]/25">
+            <span id="cd-minutes" class="font-cormorant text-3xl sm:text-5xl font-semibold text-[#fdf6f0] tracking-tight">00</span>
+            <span class="font-sans-bn text-xs sm:text-sm text-[#f4b8c8] mt-1.5">মিনিট</span>
+          </div>
+          <!-- Seconds -->
+          <div class="twilight-glass rounded-2xl p-3.5 sm:p-6 flex flex-col items-center justify-center border-[#e6c37a]/45">
+            <span id="cd-seconds" class="font-cormorant text-3xl sm:text-5xl font-semibold rose-gold-shimmer tracking-tight">00</span>
+            <span class="font-sans-bn text-xs sm:text-sm text-[#e6c37a] mt-1.5">সেকেন্ড</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Midnight Celebration Banner (Shown at 00:00:00 Nov 16, 2026 or Preview Mode) -->
+      <div id="celebration-container" class="hidden text-center twilight-glass rounded-[2rem] p-8 sm:p-11 border-[#e6c37a]/45 max-w-2xl mx-auto relative overflow-hidden">
+        <div class="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-[#f4b8c8]/15 border border-[#f4b8c8]/35 text-[#fdf6f0] text-xs sm:text-sm mb-4">
+          <span>✨ ১৬ নভেম্বর ২০২৬ · রাত বারোটার জাদু ✨</span>
+        </div>
+        <h3 class="font-serif-bn text-3xl sm:text-5xl font-bold rose-gold-shimmer mb-4 leading-snug">
+          শুভ জন্মদিন, <span id="celebration-name">তুবা</span> ✨
+        </h3>
+        <p class="font-poetic-bn text-base sm:text-lg text-[#fdf6f0]/90 max-w-lg mx-auto leading-relaxed">
+          হেমন্তের জ্যোৎস্না আর অগণিত নক্ষত্রের আশীর্বাদ নিয়ে শুরু হলো তোমার নতুন বছর। আকাশের আলোর মতোই স্নিগ্ধ ও সুন্দর হোক তোমার আগামী প্রতিটি দিন।
+        </p>
+      </div>
+    </section>
+
+    <!-- 4. BESPOKE MUSIC BOX COMPOSED IN TUBA'S NAME ("তুবার নামে বোনা সুর") -->
+    <section aria-label="তুবার নামের সুরলিপি" class="w-full max-w-2xl mx-auto mb-16 sm:mb-24">
+      <div class="twilight-glass rounded-[2rem] p-6 sm:p-9 relative overflow-hidden border-[#f4b8c8]/30">
+        <!-- Subtle Top Header -->
+        <div class="text-center mb-6">
+          <span class="inline-block text-[11px] sm:text-xs font-sans-bn tracking-[0.22em] text-[#e6c37a] uppercase mb-1.5">
+            MUSICAL CRYPTOGRAM · T · U · B · A
+          </span>
+          <h3 id="music-card-title" class="font-serif-bn text-2xl sm:text-3xl font-semibold text-[#fdf6f0]">
+            তুবার নামের সুরলিপি (T · U · B · A Nocturne)
+          </h3>
+          <p class="font-poetic-bn text-sm sm:text-base text-[#f4b8c8]/90 mt-1">
+            “তোমার নামের প্রতিটি অক্ষর থেকে বোনা এক টুকরো আবহ সংগীত”
+          </p>
+        </div>
+
+        <!-- 4 Glowing Crystal Orbs for T - U - B - A -->
+        <div id="tuba-orbs-row" class="grid grid-cols-4 gap-3 sm:gap-5 max-w-md mx-auto my-7">
+          <!-- Orb T -->
+          <div class="flex flex-col items-center">
+            <div
+              data-letter="T"
+              class="note-orb w-16 h-16 sm:w-20 sm:h-20 rounded-full flex flex-col items-center justify-center select-none shadow-lg"
+            >
+              <span class="font-cormorant text-2xl sm:text-3xl font-bold tracking-wider">T</span>
+              <span class="orb-sub text-[10px] font-cormorant tracking-widest text-[#f4b8c8]/80">Ti · E5</span>
+            </div>
+          </div>
+
+          <!-- Orb U -->
+          <div class="flex flex-col items-center">
+            <div
+              data-letter="U"
+              class="note-orb w-16 h-16 sm:w-20 sm:h-20 rounded-full flex flex-col items-center justify-center select-none shadow-lg"
+            >
+              <span class="font-cormorant text-2xl sm:text-3xl font-bold tracking-wider">U</span>
+              <span class="orb-sub text-[10px] font-cormorant tracking-widest text-[#f4b8c8]/80">Ut · C5</span>
+            </div>
+          </div>
+
+          <!-- Orb B -->
+          <div class="flex flex-col items-center">
+            <div
+              data-letter="B"
+              class="note-orb w-16 h-16 sm:w-20 sm:h-20 rounded-full flex flex-col items-center justify-center select-none shadow-lg"
+            >
+              <span class="font-cormorant text-2xl sm:text-3xl font-bold tracking-wider">B</span>
+              <span class="orb-sub text-[10px] font-cormorant tracking-widest text-[#f4b8c8]/80">Si · B4</span>
+            </div>
+          </div>
+
+          <!-- Orb A -->
+          <div class="flex flex-col items-center">
+            <div
+              data-letter="A"
+              class="note-orb w-16 h-16 sm:w-20 sm:h-20 rounded-full flex flex-col items-center justify-center select-none shadow-lg"
+            >
+              <span class="font-cormorant text-2xl sm:text-3xl font-bold tracking-wider">A</span>
+              <span class="orb-sub text-[10px] font-cormorant tracking-widest text-[#f4b8c8]/80">La · A4</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Player Controls: Play/Pause + Waveform + Volume -->
+        <div class="mt-6 pt-5 border-t border-[#f4b8c8]/15 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div class="flex items-center gap-3.5 w-full sm:w-auto justify-center sm:justify-start">
+            <button
+              id="music-toggle-btn"
+              type="button"
+              aria-label="সুর চালু বা বন্ধ করুন"
+              class="w-12 h-12 rounded-full bg-gradient-to-br from-[#fdf6f0] via-[#f4b8c8] to-[#d9829b] text-[#221026] flex items-center justify-center shrink-0 shadow-[0_6px_22px_rgba(244,184,200,0.4)] hover:scale-105 active:scale-95 transition-transform cursor-pointer"
+            >
+              <svg id="icon-play" class="w-5 h-5 ml-0.5" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M8 5v14l11-7z" />
+              </svg>
+              <svg id="icon-pause" class="w-5 h-5 hidden" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" />
+              </svg>
+            </button>
+
+            <!-- Waveform Visualizer & Status -->
+            <div class="flex items-center gap-3">
+              <div id="waveform-bars" class="flex items-center gap-1 h-6">
+                <span class="wave-bar"></span>
+                <span class="wave-bar"></span>
+                <span class="wave-bar"></span>
+                <span class="wave-bar"></span>
+                <span class="wave-bar"></span>
+                <span class="wave-bar"></span>
+                <span class="wave-bar"></span>
+              </div>
+              <div>
+                <p id="music-status-label" class="font-sans-bn text-xs sm:text-sm text-[#fdf6f0]">
+                  স্পর্শ করে তুবার সুর শুনুন
+                </p>
+                <p class="font-cormorant italic text-xs text-[#e6c37a]/85">
+                  Am9 · Fmaj7 · Cmaj7 · G6 Nocturne
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Soft Volume Slider -->
+          <div class="flex items-center gap-2.5 w-44 sm:w-36">
+            <svg class="w-4 h-4 text-[#f4b8c8]/80 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M11 5L6 9H2v6h4l5 4V5zM15.54 8.46a5 5 0 010 7.07" />
+            </svg>
+            <input
+              id="volume-slider"
+              type="range"
+              min="0"
+              max="1"
+              step="0.02"
+              value="0.65"
+              aria-label="শব্দের মাত্রা"
+              class="rose-slider w-full"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. POET-STYLE LITERARY BIRTHDAY LETTER ("তোমার জন্য লেখা চিঠি") -->
+    <section aria-label="তোমার জন্য লেখা চিঠি" class="w-full flex flex-col items-center">
+      <div class="text-center mb-8">
+        <p class="font-sans-bn text-xs sm:text-sm tracking-[0.22em] text-[#e6c37a] uppercase mb-1.5">
+          হৃদয়ের অক্ষরে বোনা
+        </p>
+        <h3 class="font-serif-bn text-2xl sm:text-3xl font-semibold text-[#fdf6f0]">
+          তোমার জন্য লেখা একটি চিঠি
+        </h3>
+      </div>
+
+      <!-- 3D Velvet-Plum & Champagne-Gold Wax-Sealed Envelope -->
+      <div id="envelope-wrapper" class="envelope-perspective w-full max-w-md mx-auto">
+        <div
+          id="secret-envelope"
+          role="button"
+          tabindex="0"
+          aria-label="সিলমোহরে স্পর্শ করে চিঠিটি খোলো"
+          class="velvet-envelope w-full h-64 sm:h-72 rounded-2xl cursor-pointer overflow-hidden flex items-center justify-center group"
+        >
+          <!-- Corner Floral Filigree on Envelope -->
+          <svg class="absolute top-3 left-3 w-10 h-10 text-[#e6c37a]/45 z-30 pointer-events-none" viewBox="0 0 40 40" fill="none">
+            <path d="M4 32C4 16 16 4 32 4" stroke="currentColor" stroke-width="1" />
+            <circle cx="10" cy="10" r="1.8" fill="#f4b8c8" />
+          </svg>
+          <svg class="absolute top-3 right-3 w-10 h-10 text-[#e6c37a]/45 rotate-90 z-30 pointer-events-none" viewBox="0 0 40 40" fill="none">
+            <path d="M4 32C4 16 16 4 32 4" stroke="currentColor" stroke-width="1" />
+            <circle cx="10" cy="10" r="1.8" fill="#f4b8c8" />
+          </svg>
+          <svg class="absolute bottom-3 left-3 w-10 h-10 text-[#e6c37a]/45 -rotate-90 z-30 pointer-events-none" viewBox="0 0 40 40" fill="none">
+            <path d="M4 32C4 16 16 4 32 4" stroke="currentColor" stroke-width="1" />
+          </svg>
+          <svg class="absolute bottom-3 right-3 w-10 h-10 text-[#e6c37a]/45 rotate-180 z-30 pointer-events-none" viewBox="0 0 40 40" fill="none">
+            <path d="M4 32C4 16 16 4 32 4" stroke="currentColor" stroke-width="1" />
+          </svg>
+
+          <!-- Envelope Flap & Pockets -->
+          <div class="velvet-flap"></div>
+          <div class="pocket-left"></div>
+          <div class="pocket-right"></div>
+          <div class="pocket-bottom"></div>
+
+          <!-- Central Embossed Rose-Gold Wax Seal Stamped with "তুবা" -->
+          <div class="seal-medallion relative z-30 flex flex-col items-center transition-all duration-500 group-hover:scale-105">
+            <div class="w-22 h-22 sm:w-24 sm:h-24 rounded-full bg-gradient-to-br from-[#fdf6f0] via-[#f4b8c8] to-[#b85d79] border-2 border-[#fdf6f0]/85 shadow-[0_12px_34px_rgba(0,0,0,0.68)] flex flex-col items-center justify-center text-[#281129] relative">
+              <span class="absolute inset-1.5 rounded-full border border-[#4f1d38]/30 pointer-events-none"></span>
+              <svg class="w-4 h-4 mb-0.5 text-[#5c203e]" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2C13.4 6.2 14.8 7.6 19 9C14.8 10.4 13.4 11.8 12 16C10.6 11.8 9.2 10.4 5 9C9.2 7.6 10.6 6.2 12 2Z" />
+              </svg>
+              <span id="envelope-seal-name" class="font-serif-bn font-bold text-base sm:text-lg tracking-wide">
+                তুবা
+              </span>
+            </div>
+
+            <span class="mt-3.5 px-4 py-1.5 rounded-full bg-[#0c0818]/75 border border-[#f4b8c8]/35 text-xs sm:text-sm font-sans-bn text-[#fdf6f0] tracking-wide shadow-md">
+              সিলমোহরে স্পর্শ করে চিঠিটি খোলো
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unfolding Warm Ivory Parchment Letter -->
+      <article
+        id="letter-paper"
+        class="hidden parchment-sheet w-full max-w-2xl mx-auto rounded-[1.75rem] p-7 sm:p-12 md:p-14 relative overflow-hidden opacity-0 translate-y-6"
+      >
+        <!-- Delicate Botanical Floral Watermarks -->
+        <svg class="absolute -top-8 -right-8 w-52 h-52 text-[#d9829b]/[0.11] pointer-events-none" viewBox="0 0 200 200" fill="none">
+          <circle cx="100" cy="100" r="82" stroke="currentColor" stroke-width="1" stroke-dasharray="3 5" />
+          <path d="M100 22C112 58 142 88 178 100C142 112 112 142 100 178C88 142 58 112 22 100C58 88 88 58 100 22Z" stroke="currentColor" stroke-width="1" />
+        </svg>
+        <svg class="absolute -bottom-10 -left-10 w-56 h-56 text-[#b88b4a]/[0.12] pointer-events-none" viewBox="0 0 200 200" fill="none">
+          <path d="M20 180C55 130 95 95 165 45" stroke="currentColor" stroke-width="1.2" />
+          <ellipse cx="95" cy="95" rx="18" ry="8" transform="rotate(-35 95 95)" stroke="currentColor" stroke-width="1" />
+          <ellipse cx="128" cy="72" rx="16" ry="7" transform="rotate(-35 128 72)" stroke="currentColor" stroke-width="1" />
+          <ellipse cx="68" cy="124" rx="18" ry="8" transform="rotate(-35 68 124)" stroke="currentColor" stroke-width="1" />
+        </svg>
+
+        <!-- Parchment Header -->
+        <div class="relative z-10 flex items-center justify-between border-b border-[#d4b483]/45 pb-5 mb-7">
+          <div>
+            <p class="font-sans-bn text-xs sm:text-sm text-[#8a5a6e] tracking-widest">
+              ১৬ নভেম্বর ২০২৬ · হেমন্তের নিশীথ
+            </p>
+            <h4 class="font-serif-bn text-2xl sm:text-3xl font-semibold text-[#2b1e2e] mt-1">
+              প্রিয় <span id="letter-salutation-name">তুবা</span>,
+            </h4>
+          </div>
+          <!-- Crescent & Jasmine Crest -->
+          <div class="w-11 h-11 rounded-full bg-[#f4b8c8]/25 border border-[#d4b483]/55 flex items-center justify-center text-[#7a3b56]">
+            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2C13.5 7 17 10.5 22 12C17 13.5 13.5 17 12 22C10.5 17 7 13.5 2 12C7 10.5 10.5 7 12 2Z" />
+            </svg>
+          </div>
+        </div>
+
+        <!-- Stanza-by-Stanza Literary Letter Body -->
+        <div
+          id="letter-stanzas-container"
+          class="relative z-10 font-poetic-bn text-base sm:text-[18.5px] text-[#2b1e2e] leading-[2.05] space-y-6"
+        ></div>
+
+        <!-- Closing & Signature -->
+        <div id="letter-closing-block" class="letter-stanza relative z-10 mt-10 pt-6 border-t border-[#d4b483]/45">
+          <p id="letter-closing-line" class="font-serif-bn text-xl sm:text-2xl font-semibold text-[#5e2742] mb-2">
+            শুভ জন্মদিন, তুবা।
+          </p>
+          <div class="flex flex-wrap items-center justify-between gap-4">
+            <p id="letter-signature-line" class="font-poetic-bn italic text-base sm:text-lg text-[#4a354e]">
+              — নক্ষত্রের আড়াল থেকে, শুধু তোমারই এক শুভাকাঙ্ক্ষী
+            </p>
+            <button
+              id="fold-letter-btn"
+              type="button"
+              class="px-4 py-1.5 rounded-full border border-[#8a5a6e]/35 text-xs font-sans-bn text-[#5e2742] hover:bg-[#f4b8c8]/25 transition-colors cursor-pointer"
+            >
+              চিঠিটি আবার খামে রাখো
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Serene Botanical End-Ornament (No wish box, clean poetic ending) -->
+      <div class="mt-14 flex flex-col items-center text-center opacity-75">
+        <svg class="w-28 h-8 text-[#f4b8c8]/60" viewBox="0 0 120 30" fill="none">
+          <path d="M10 15H46M74 15H110" stroke="currentColor" stroke-width="0.8" />
+          <path d="M60 6C62 11 64 13 69 15C64 17 62 19 60 24C58 19 56 17 51 15C56 13 58 11 60 6Z" fill="#e6c37a" />
+        </svg>
+        <p class="font-cormorant italic text-sm text-[#f4b8c8]/75 tracking-widest mt-1">
+          16 · XI · 2026
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Hidden Custom Audio Element (Only used if creator uploads a custom .mp3 file) -->
+  <audio id="custom-audio-player" loop preload="auto"></audio>
+
+  <!-- =====================================================================
+       6. DISCREET CREATOR CUSTOMIZATION DRAWER (REMOVED ON FINAL EXPORT)
+       ===================================================================== -->
+  <aside
+    id="creator-drawer"
+    aria-hidden="true"
+    class="fixed inset-0 z-50 hidden"
+  >
+    <div id="drawer-backdrop" class="absolute inset-0 bg-black/70 backdrop-blur-sm"></div>
+
+    <div class="absolute top-0 right-0 h-full w-full max-w-md bg-[#110a21] border-l border-[#f4b8c8]/25 shadow-2xl flex flex-col">
+      <!-- Drawer Header -->
+      <div class="px-6 py-5 border-b border-[#f4b8c8]/20 flex items-center justify-between">
+        <div>
+          <h3 class="font-serif-bn text-xl font-semibold text-[#fdf6f0]">সারপ্রাইজ কাস্টমাইজ করুন</h3>
+          <p class="font-sans-bn text-xs text-[#f4b8c8]/80 mt-0.5">নাম, সময়, চিঠি ও সুর সাজিয়ে ফাইনাল ফাইল ডাউনলোড করুন</p>
+        </div>
+        <button
+          id="close-drawer-btn"
+          type="button"
+          aria-label="বন্ধ করুন"
+          class="w-9 h-9 rounded-full border border-[#f4b8c8]/30 flex items-center justify-center text-[#fdf6f0] hover:bg-[#f4b8c8]/15 cursor-pointer"
+        >
+          ✕
+        </button>
+      </div>
+
+      <!-- Drawer Body -->
+      <div class="p-6 overflow-y-auto space-y-5 flex-1 font-sans-bn">
+        <!-- 1. Recipient Name -->
+        <div>
+          <label for="input-recipient-name" class="block text-sm text-[#f4b8c8] mb-1.5">
+            ১. তার নাম
+          </label>
+          <input
+            id="input-recipient-name"
+            type="text"
+            class="w-full px-4 py-2.5 rounded-xl bg-black/45 border border-[#f4b8c8]/30 text-[#fdf6f0] text-sm focus:outline-none focus:border-[#f4b8c8]"
+          />
+        </div>
+
+        <!-- 2. Target Date/Time -->
+        <div>
+          <label for="input-target-datetime" class="block text-sm text-[#f4b8c8] mb-1.5">
+            ২. জন্মদিনের সময় (বাংলাদেশ সময় +06:00)
+          </label>
+          <input
+            id="input-target-datetime"
+            type="text"
+            placeholder="2026-11-16T00:00:00+06:00"
+            class="w-full px-4 py-2.5 rounded-xl bg-black/45 border border-[#f4b8c8]/30 text-[#fdf6f0] text-xs font-mono focus:outline-none focus:border-[#f4b8c8]"
+          />
+        </div>
+
+        <!-- 3. Poetic Letter Body -->
+        <div>
+          <label for="input-letter-body" class="block text-sm text-[#f4b8c8] mb-1.5">
+            ৩. চিঠির স্তবকসমূহ (প্রতিটি অনুচ্ছেদের মাঝে একটি ফাঁকা লাইন রাখুন)
+          </label>
+          <textarea
+            id="input-letter-body"
+            rows="7"
+            class="w-full px-4 py-3 rounded-xl bg-black/45 border border-[#f4b8c8]/30 text-[#fdf6f0] text-sm leading-relaxed focus:outline-none focus:border-[#f4b8c8]"
+          ></textarea>
+        </div>
+
+        <!-- 4. Closing & Signature -->
+        <div class="grid grid-cols-1 gap-3">
+          <div>
+            <label for="input-letter-closing" class="block text-xs text-[#f4b8c8] mb-1">
+              সমাপনী শুভেচ্ছা
+            </label>
+            <input
+              id="input-letter-closing"
+              type="text"
+              class="w-full px-3.5 py-2 rounded-xl bg-black/45 border border-[#f4b8c8]/30 text-[#fdf6f0] text-sm focus:outline-none focus:border-[#f4b8c8]"
+            />
+          </div>
+          <div>
+            <label for="input-letter-signature" class="block text-xs text-[#f4b8c8] mb-1">
+              স্বাক্ষর / পরিচয়
+            </label>
+            <input
+              id="input-letter-signature"
+              type="text"
+              class="w-full px-3.5 py-2 rounded-xl bg-black/45 border border-[#f4b8c8]/30 text-[#fdf6f0] text-sm focus:outline-none focus:border-[#f4b8c8]"
+            />
+          </div>
+        </div>
+
+        <!-- 5. Custom Audio Upload -->
+        <div>
+          <label class="block text-sm text-[#f4b8c8] mb-1.5">
+            ৪. আবহ সংগীত (ডিফল্ট: তুবার নামের T·U·B·A সুর)
+          </label>
+          <div class="p-3.5 rounded-xl bg-black/35 border border-[#f4b8c8]/25 space-y-2.5">
+            <p id="selected-audio-label" class="text-xs text-[#fdf6f0]/90 truncate">
+              বর্তমান সুর: তুবার নামের সুরলিপি (T · U · B · A Nocturne)
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <label class="px-3.5 py-2 rounded-lg bg-[#f4b8c8]/15 border border-[#f4b8c8]/35 text-xs text-[#fdf6f0] hover:bg-[#f4b8c8]/25 cursor-pointer transition-colors">
+                <span>নিজের .mp3 গান দিন</span>
+                <input id="input-custom-audio" type="file" accept="audio/*" class="hidden" />
+              </label>
+              <button
+                id="reset-builtin-audio-btn"
+                type="button"
+                class="px-3 py-2 rounded-lg border border-white/15 text-xs text-[#f4b8c8]/85 hover:text-white cursor-pointer"
+              >
+                T·U·B·A সুর রাখুন
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. Midnight Celebration Preview Toggle -->
+        <div class="p-4 rounded-xl bg-[#f4b8c8]/[0.07] border border-[#f4b8c8]/30 flex items-center justify-between gap-4">
+          <div>
+            <p class="text-sm text-[#fdf6f0] font-medium">রাত ১২টার জাদু দেখুন</p>
+            <p class="text-xs text-[#f4b8c8]/80 mt-0.5">১৬ নভেম্বর রাত ১২টা বাজলে যেমন দেখাবে</p>
+          </div>
+          <label class="relative inline-flex items-center cursor-pointer">
+            <input id="toggle-midnight-preview" type="checkbox" class="sr-only peer" />
+            <div class="w-11 h-6 bg-white/15 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-[#fdf6f0] after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-[#d9829b]"></div>
+          </label>
+        </div>
+      </div>
+
+      <!-- Drawer Footer: Export Clean Standalone HTML -->
+      <div class="p-5 border-t border-[#f4b8c8]/20 bg-[#0b0616]">
+        <button
+          id="export-final-html-btn"
+          type="button"
+          class="w-full py-3.5 px-5 rounded-xl bg-gradient-to-r from-[#fdf6f0] via-[#f4b8c8] to-[#e6c37a] text-[#221026] font-serif-bn font-bold text-base shadow-lg hover:brightness-105 active:scale-[0.99] transition-all cursor-pointer flex items-center justify-center gap-2"
+        >
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+          </svg>
+          <span>ফাইনাল ওয়েবসাইট ডাউনলোড করুন (.html)</span>
+        </button>
+        <p class="text-[11px] text-center text-[#f4b8c8]/70 mt-2 font-sans-bn">
+          ডাউনলোড করা ফাইলে কাস্টমাইজ বাটন থাকবে না—শুধু তুবা তার সারপ্রাইজটি দেখবে।
+        </p>
+      </div>
+    </div>
+  </aside>
+
+  <!-- =====================================================================
+       APPLICATION LOGIC (T-U-B-A NOCTURNE SYNTH, PETAL CANVAS, LETTER, EXPORT)
+       ===================================================================== -->
+  <script>
+    (function () {
+      'use strict';
+
+      /* -------------------------------------------------------------------
+         1. LOAD CONFIGURATION & STATE
+         ------------------------------------------------------------------- */
+      let config = {
+        recipientName: 'তুবা',
+        targetDateTime: '2026-11-16T00:00:00+06:00',
+        letterBody: '',
+        letterClosing: 'শুভ জন্মদিন, তুবা।',
+        letterSignature: '— নক্ষত্রের আড়াল থেকে, শুধু তোমারই এক শুভাকাঙ্ক্ষী',
+        customAudioDataUrl: '',
+        customAudioName: 'তুবার নামের সুরলিপি (T · U · B · A Nocturne)',
+        isFinalRecipientBuild: false
+      };
+
+      try {
+        const rawConfigEl = document.getElementById('surprise-config-data');
+        if (rawConfigEl && rawConfigEl.textContent.trim()) {
+          config = Object.assign(config, JSON.parse(rawConfigEl.textContent));
+        }
+      } catch (err) {
+        console.warn('Config parse fallback:', err);
+      }
+
+      const state = {
+        isUnveiled: false,
+        isPlayingMusic: false,
+        isMidnightMode: false,
+        previewMidnightOverride: false,
+        isLetterOpen: false,
+        volume: 0.65
+      };
+
+      /* -------------------------------------------------------------------
+         2. DOM REFERENCES & TOAST HELPER
+         ------------------------------------------------------------------- */
+      const entryVeil = document.getElementById('entry-veil');
+      const unveilBtn = document.getElementById('unveil-btn');
+      const heroNameEl = document.getElementById('hero-recipient-name');
+      const celebrationNameEl = document.getElementById('celebration-name');
+      const envelopeSealNameEl = document.getElementById('envelope-seal-name');
+      const letterSalutationEl = document.getElementById('letter-salutation-name');
+      const letterStanzasContainer = document.getElementById('letter-stanzas-container');
+      const letterClosingBlock = document.getElementById('letter-closing-block');
+      const letterClosingLine = document.getElementById('letter-closing-line');
+      const letterSignatureLine = document.getElementById('letter-signature-line');
+
+      const countdownContainer = document.getElementById('countdown-container');
+      const celebrationContainer = document.getElementById('celebration-container');
+      const cdDaysEl = document.getElementById('cd-days');
+      const cdHoursEl = document.getElementById('cd-hours');
+      const cdMinutesEl = document.getElementById('cd-minutes');
+      const cdSecondsEl = document.getElementById('cd-seconds');
+
+      const secretEnvelope = document.getElementById('secret-envelope');
+      const envelopeWrapper = document.getElementById('envelope-wrapper');
+      const letterPaper = document.getElementById('letter-paper');
+      const foldLetterBtn = document.getElementById('fold-letter-btn');
+
+      const musicToggleBtn = document.getElementById('music-toggle-btn');
+      const iconPlay = document.getElementById('icon-play');
+      const iconPause = document.getElementById('icon-pause');
+      const waveformBars = document.getElementById('waveform-bars');
+      const musicCardTitle = document.getElementById('music-card-title');
+      const musicStatusLabel = document.getElementById('music-status-label');
+      const volumeSlider = document.getElementById('volume-slider');
+      const customAudioPlayer = document.getElementById('custom-audio-player');
+      const orbElements = {
+        T: document.querySelector('.note-orb[data-letter="T"]'),
+        U: document.querySelector('.note-orb[data-letter="U"]'),
+        B: document.querySelector('.note-orb[data-letter="B"]'),
+        A: document.querySelector('.note-orb[data-letter="A"]')
+      };
+
+      const creatorTrigger = document.getElementById('creator-trigger');
+      const creatorDrawer = document.getElementById('creator-drawer');
+      const drawerBackdrop = document.getElementById('drawer-backdrop');
+      const closeDrawerBtn = document.getElementById('close-drawer-btn');
+      const inputRecipientName = document.getElementById('input-recipient-name');
+      const inputTargetDatetime = document.getElementById('input-target-datetime');
+      const inputLetterBody = document.getElementById('input-letter-body');
+      const inputLetterClosing = document.getElementById('input-letter-closing');
+      const inputLetterSignature = document.getElementById('input-letter-signature');
+      const inputCustomAudio = document.getElementById('input-custom-audio');
+      const resetBuiltinAudioBtn = document.getElementById('reset-builtin-audio-btn');
+      const selectedAudioLabel = document.getElementById('selected-audio-label');
+      const toggleMidnightPreview = document.getElementById('toggle-midnight-preview');
+      const exportFinalHtmlBtn = document.getElementById('export-final-html-btn');
+
+      let toastTimer = null;
+      function showToast(message) {
+        const banner = document.getElementById('toast-banner');
+        const msgEl = document.getElementById('toast-message');
+        if (!banner || !msgEl) return;
+        msgEl.textContent = message;
+        banner.classList.remove('opacity-0', '-translate-y-4');
+        banner.classList.add('opacity-100', 'translate-y-0');
+        clearTimeout(toastTimer);
+        toastTimer = setTimeout(() => {
+          banner.classList.remove('opacity-100', 'translate-y-0');
+          banner.classList.add('opacity-0', '-translate-y-4');
+        }, 3600);
+      }
+
+      /* -------------------------------------------------------------------
+         3. RENDER STANZAS & HYDRATE DOM FROM CONFIG
+         ------------------------------------------------------------------- */
+      function renderLetterStanzas(makeImmediatelyVisible) {
+        const paragraphs = (config.letterBody || '')
+          .split(/\n\s*\n/)
+          .map((p) => p.trim())
+          .filter(Boolean);
+
+        letterStanzasContainer.innerHTML = '';
+        paragraphs.forEach((text) => {
+          const p = document.createElement('p');
+          p.className = 'letter-stanza' + (makeImmediatelyVisible ? ' stanza-visible' : '');
+          p.textContent = text;
+          letterStanzasContainer.appendChild(p);
+        });
+
+        if (makeImmediatelyVisible) {
+          letterClosingBlock.classList.add('stanza-visible');
+        } else {
+          letterClosingBlock.classList.remove('stanza-visible');
+        }
+      }
+
+      function applyConfigToDOM() {
+        const cleanName = (config.recipientName || '').trim() || 'তুবা';
+        heroNameEl.textContent = cleanName;
+        celebrationNameEl.textContent = cleanName;
+        envelopeSealNameEl.textContent = cleanName;
+        letterSalutationEl.textContent = cleanName;
+        letterClosingLine.textContent = config.letterClosing || `শুভ জন্মদিন, ${cleanName}।`;
+        letterSignatureLine.textContent = config.letterSignature || '';
+
+        renderLetterStanzas(state.isLetterOpen);
+
+        if (config.customAudioDataUrl) {
+          customAudioPlayer.src = config.customAudioDataUrl;
+          musicCardTitle.textContent = config.customAudioName || 'তুবার জন্মদিনের বিশেষ গান';
+        } else {
+          customAudioPlayer.removeAttribute('src');
+          musicCardTitle.textContent = 'তুবার নামের সুরলিপি (T · U · B · A Nocturne)';
+        }
+
+        if (config.isFinalRecipientBuild) {
+          if (creatorTrigger) creatorTrigger.remove();
+          if (creatorDrawer) creatorDrawer.remove();
+        } else if (inputRecipientName) {
+          inputRecipientName.value = config.recipientName;
+          inputTargetDatetime.value = config.targetDateTime;
+          inputLetterBody.value = config.letterBody;
+          inputLetterClosing.value = config.letterClosing;
+          inputLetterSignature.value = config.letterSignature;
+          selectedAudioLabel.textContent =
+            'বর্তমান সুর: ' + (config.customAudioName || 'তুবার নামের সুরলিপি (T · U · B · A Nocturne)');
+        }
+      }
+
+      /* -------------------------------------------------------------------
+         4. BESPOKE T-U-B-A MUSICAL CRYPTOGRAM NOCTURNE (WEB AUDIO API)
+            Cipher Mapping:
+            T = Ti / E5 (MIDI 76)
+            U = Ut / C5 (MIDI 72)
+            B = Si / B4 (MIDI 71)
+            A = La / A4 (MIDI 69)
+            Progression: Am9 -> Fmaj7 -> Cmaj7 -> G6
+         ------------------------------------------------------------------- */
+      class TubaNocturneSynth {
+        constructor(onLetterPulse) {
+          this.ctx = null;
+          this.masterGain = null;
+          this.isPlaying = false;
+          this.stepIndex = 0;
+          this.timerId = null;
+          this.onLetterPulse = onLetterPulse;
+          this.volume = 0.65;
+
+          // Emotional polyphonic nocturne weaving T(76)-U(72)-B(71)-A(69)
+          // over lush felt-piano arpeggios & velvet string pads
+          this.score = [
+            // Bar 1: Am9 — Introducing T - U - B - A signature
+            { dur: 760, letter: 'T', melody: 76, arp: [45, 52, 60], pad: [45, 52, 59, 60] },
+            { dur: 760, letter: 'U', melody: 72, arp: [55, 64] },
+            { dur: 760, letter: 'B', melody: 71, arp: [52, 60] },
+            { dur: 1120, letter: 'A', melody: 69, arp: [57, 64] },
+
+            // Bar 2: Fmaj7 — Tender echo of T - U - B - A
+            { dur: 760, letter: 'T', melody: 76, arp: [41, 48, 57], pad: [41, 48, 52, 57] },
+            { dur: 760, letter: 'U', melody: 72, arp: [52, 60] },
+            { dur: 760, letter: 'B', melody: 71, arp: [48, 57] },
+            { dur: 1120, letter: 'A', melody: 69, arp: [52, 60] },
+
+            // Bar 3: Cmaj7 — Soaring variation with U - T - B - A
+            { dur: 760, letter: 'U', melody: 72, arp: [48, 55, 64], pad: [48, 55, 59, 64] },
+            { dur: 760, letter: 'T', melody: 76, arp: [59, 67] },
+            { dur: 760, letter: 'B', melody: 71, arp: [55, 64] },
+            { dur: 1120, letter: 'A', melody: 69, arp: [59, 64] },
+
+            // Bar 4: G6 — Gentle resolution back toward T - U - B - A
+            { dur: 760, letter: 'B', melody: 71, arp: [43, 50, 59], pad: [43, 50, 52, 59] },
+            { dur: 760, letter: 'A', melody: 69, arp: [52, 62] },
+            { dur: 760, letter: 'T', melody: 76, arp: [50, 59] },
+            { dur: 1280, letter: 'U', melody: 72, arp: [55, 64] },
+
+            // Bar 5: Am9 — Intimate high-register celesta reflection of T - U - B - A
+            { dur: 820, letter: 'T', melody: 76, arp: [45, 52, 59], pad: [45, 52, 60, 64] },
+            { dur: 820, letter: 'U', melody: 72, arp: [60, 64] },
+            { dur: 820, letter: 'B', melody: 71, arp: [52, 59] },
+            { dur: 1450, letter: 'A', melody: 69, arp: [57, 60] }
+          ];
+        }
+
+        init() {
+          if (!this.ctx) {
+            const AudioCtx = window.AudioContext || window.webkitAudioContext;
+            this.ctx = new AudioCtx();
+
+            this.masterGain = this.ctx.createGain();
+            this.masterGain.gain.value = this.volume * 0.65;
+
+            // Lush velvet echo / reverb tail
+            this.delay = this.ctx.createDelay();
+            this.delay.delayTime.value = 0.42;
+
+            this.feedback = this.ctx.createGain();
+            this.feedback.gain.value = 0.34;
+
+            this.echoFilter = this.ctx.createBiquadFilter();
+            this.echoFilter.type = 'lowpass';
+            this.echoFilter.frequency.value = 1650;
+
+            this.delay.connect(this.echoFilter);
+            this.echoFilter.connect(this.feedback);
+            this.feedback.connect(this.delay);
+            this.echoFilter.connect(this.masterGain);
+
+            this.masterGain.connect(this.ctx.destination);
+          }
+          if (this.ctx.state === 'suspended') {
+            this.ctx.resume();
+          }
+        }
+
+        setVolume(val) {
+          this.volume = val;
+          if (this.masterGain && this.ctx) {
+            this.masterGain.gain.setTargetAtTime(val * 0.65, this.ctx.currentTime, 0.05);
+          }
+        }
+
+        midiToFreq(midi) {
+          return 440 * Math.pow(2, (midi - 69) / 12);
+        }
+
+        // Warm Felt-Piano + Crystalline Celesta Voice for T-U-B-A Melody
+        playCelestaPiano(midi, durationSec, isLead) {
+          if (!this.ctx) return;
+          const now = this.ctx.currentTime;
+          const freq = this.midiToFreq(midi);
+
+          const oscWarm = this.ctx.createOscillator();
+          const oscHarmonic = this.ctx.createOscillator();
+          const filter = this.ctx.createBiquadFilter();
+          const env = this.ctx.createGain();
+
+          oscWarm.type = 'triangle';
+          oscWarm.frequency.setValueAtTime(freq, now);
+
+          oscHarmonic.type = 'sine';
+          oscHarmonic.frequency.setValueAtTime(isLead ? freq * 2 : freq, now);
+
+          const harmGain = this.ctx.createGain();
+          harmGain.gain.setValueAtTime(isLead ? 0.16 : 0.06, now);
+          harmGain.gain.exponentialRampToValueAtTime(0.001, now + 0.65);
+
+          filter.type = 'lowpass';
+          filter.frequency.setValueAtTime(isLead ? 2200 : 1050, now);
+          filter.frequency.exponentialRampToValueAtTime(520, now + durationSec + 0.8);
+
+          const peakGain = isLead ? 0.34 : 0.15;
+          const releaseTime = isLead ? Math.max(1.8, durationSec + 1.1) : 1.3;
+
+          env.gain.setValueAtTime(0.0001, now);
+          env.gain.linearRampToValueAtTime(peakGain, now + 0.03);
+          env.gain.exponentialRampToValueAtTime(0.0008, now + releaseTime);
+
+          oscWarm.connect(filter);
+          oscHarmonic.connect(harmGain);
+          harmGain.connect(filter);
+          filter.connect(env);
+
+          env.connect(this.masterGain);
+          env.connect(this.delay);
+
+          oscWarm.start(now);
+          oscHarmonic.start(now);
+          oscWarm.stop(now + releaseTime + 0.08);
+          oscHarmonic.stop(now + releaseTime + 0.08);
+        }
+
+        // Soft Velvet String Pad Chord
+        playVelvetPad(notes) {
+          if (!this.ctx || !notes) return;
+          const now = this.ctx.currentTime;
+          const filter = this.ctx.createBiquadFilter();
+          filter.type = 'lowpass';
+          filter.frequency.setValueAtTime(560, now);
+
+          const padEnv = this.ctx.createGain();
+          padEnv.gain.setValueAtTime(0.0001, now);
+          padEnv.gain.linearRampToValueAtTime(0.11, now + 0.85);
+          padEnv.gain.exponentialRampToValueAtTime(0.0008, now + 3.8);
+
+          filter.connect(padEnv);
+          padEnv.connect(this.masterGain);
+
+          notes.forEach((m) => {
+            const osc = this.ctx.createOscillator();
+            osc.type = 'sine';
+            osc.frequency.setValueAtTime(this.midiToFreq(m), now);
+            osc.connect(filter);
+            osc.start(now);
+            osc.stop(now + 3.9);
+          });
+        }
+
+        playUnfoldChime() {
+          this.init();
+          // Plays T-U-B-A ascending shimmer arpeggio when opening the letter
+          const notes = [69, 71, 72, 76];
+          notes.forEach((m, idx) => {
+            setTimeout(() => this.playCelestaPiano(m, 0.9, true), idx * 95);
+          });
+        }
+
+        tick() {
+          if (!this.isPlaying) return;
+          const step = this.score[this.stepIndex];
+          const durSec = step.dur / 1000;
+
+          if (step.pad) {
+            this.playVelvetPad(step.pad);
+          }
+
+          if (step.arp) {
+            step.arp.forEach((arpMidi, idx) => {
+              setTimeout(() => {
+                if (this.isPlaying) {
+                  this.playCelestaPiano(arpMidi, durSec * 0.7, false);
+                }
+              }, idx * 140);
+            });
+          }
+
+          if (step.melody) {
+            this.playCelestaPiano(step.melody, durSec, true);
+            if (step.letter && typeof this.onLetterPulse === 'function') {
+              this.onLetterPulse(step.letter, step.dur * 0.88);
+            }
+          }
+
+          this.stepIndex = (this.stepIndex + 1) % this.score.length;
+          this.timerId = setTimeout(() => this.tick(), step.dur);
+        }
+
+        start() {
+          this.init();
+          if (this.isPlaying) return;
+          this.isPlaying = true;
+          this.tick();
+        }
+
+        stop() {
+          this.isPlaying = false;
+          clearTimeout(this.timerId);
+        }
+      }
+
+      function highlightLetterOrb(letter, durationMs) {
+        Object.keys(orbElements).forEach((key) => {
+          if (orbElements[key]) {
+            orbElements[key].classList.remove('orb-lit');
+          }
+        });
+        const targetOrb = orbElements[letter];
+        if (targetOrb) {
+          targetOrb.classList.add('orb-lit');
+          setTimeout(() => {
+            targetOrb.classList.remove('orb-lit');
+          }, Math.max(350, durationMs));
+        }
+      }
+
+      const tubaSynth = new TubaNocturneSynth(highlightLetterOrb);
+
+      function updateMusicUI(playing) {
+        state.isPlayingMusic = playing;
+        if (playing) {
+          iconPlay.classList.add('hidden');
+          iconPause.classList.remove('hidden');
+          waveformBars.classList.add('wave-active');
+          musicStatusLabel.textContent = 'তুবার নামের সুর বাজছে...';
+        } else {
+          iconPlay.classList.remove('hidden');
+          iconPause.classList.add('hidden');
+          waveformBars.classList.remove('wave-active');
+          musicStatusLabel.textContent = 'স্পর্শ করে তুবার সুর শুনুন';
+          Object.values(orbElements).forEach((el) => el && el.classList.remove('orb-lit'));
+        }
+      }
+
+      function startMusic() {
+        if (config.customAudioDataUrl) {
+          tubaSynth.stop();
+          customAudioPlayer.volume = state.volume;
+          customAudioPlayer.play().then(() => {
+            updateMusicUI(true);
+          }).catch(() => {
+            updateMusicUI(false);
+          });
+        } else {
+          customAudioPlayer.pause();
+          tubaSynth.setVolume(state.volume);
+          tubaSynth.start();
+          updateMusicUI(true);
+        }
+      }
+
+      function pauseMusic() {
+        tubaSynth.stop();
+        customAudioPlayer.pause();
+        updateMusicUI(false);
+      }
+
+      musicToggleBtn.addEventListener('click', () => {
+        if (state.isPlayingMusic) {
+          pauseMusic();
+        } else {
+          startMusic();
+        }
+      });
+
+      volumeSlider.addEventListener('input', (e) => {
+        state.volume = parseFloat(e.target.value);
+        tubaSynth.setVolume(state.volume);
+        customAudioPlayer.volume = state.volume;
+      });
+
+      /* -------------------------------------------------------------------
+         5. ENCHANTING TWILIGHT CANVAS:
+            - Twinkling Pearl & Rose-Gold Stars
+            - Glowing Fireflies / Rose-Gold Dust
+            - Delicate Falling Shiuli (শেফালি) & Cherry Blossom Petals
+            - Interactive Cursor/Touch Sparkle & Petal Trail
+            - Graceful Rose-Gold & Champagne Fireworks at Midnight
+         ------------------------------------------------------------------- */
+      const canvas = document.getElementById('twilight-canvas');
+      const ctx = canvas.getContext('2d');
+
+      let width = (canvas.width = window.innerWidth);
+      let height = (canvas.height = window.innerHeight);
+
+      window.addEventListener('resize', () => {
+        width = canvas.width = window.innerWidth;
+        height = canvas.height = window.innerHeight;
+      });
+
+      // 5a. Background Twinkling Stars
+      const stars = Array.from({ length: 135 }, () => ({
+        x: Math.random() * width,
+        y: Math.random() * height,
+        r: Math.random() * 1.45 + 0.4,
+        baseAlpha: Math.random() * 0.65 + 0.25,
+        speed: Math.random() * 0.022 + 0.008,
+        phase: Math.random() * Math.PI * 2,
+        tint: Math.random() > 0.55 ? 'rose' : 'pearl'
+      }));
+
+      // 5b. Glowing Fireflies & Rose-Gold Dust
+      const fireflies = Array.from({ length: 42 }, () => ({
+        x: Math.random() * width,
+        y: Math.random() * height,
+        vx: (Math.random() - 0.5) * 0.4,
+        vy: -(Math.random() * 0.35 + 0.12),
+        size: Math.random() * 2.4 + 1.1,
+        pulsePhase: Math.random() * Math.PI * 2,
+        isWarmGold: Math.random() > 0.45
+      }));
+
+      // 5c. Delicate Falling Shiuli & Cherry Blossom Petals
+      const petals = Array.from({ length: 28 }, () => createPetal(true));
+
+      function createPetal(randomY) {
+        const isShiuli = Math.random() > 0.48; // Shiuli (white petal + warm coral-orange stem) vs Rose/Cherry petal
+        return {
+          x: Math.random() * width,
+          y: randomY ? Math.random() * height : -24,
+          vy: Math.random() * 0.65 + 0.38,
+          swayAmp: Math.random() * 1.2 + 0.5,
+          swayPhase: Math.random() * Math.PI * 2,
+          swaySpeed: Math.random() * 0.022 + 0.01,
+          rotation: Math.random() * Math.PI * 2,
+          rotSpeed: (Math.random() - 0.5) * 0.025,
+          scale: Math.random() * 0.45 + 0.65,
+          alpha: Math.random() * 0.42 + 0.38,
+          isShiuli
+        };
+      }
+
+      function drawPetal(p) {
+        ctx.save();
+        ctx.translate(p.x, p.y);
+        ctx.rotate(p.rotation);
+        ctx.scale(p.scale, p.scale);
+        ctx.globalAlpha = p.alpha;
+
+        if (p.isShiuli) {
+          // Delicate Shiuli (শেফালি) petal: ivory white teardrop with tiny coral-orange base stem
+          ctx.beginPath();
+          ctx.moveTo(0, -8);
+          ctx.bezierCurveTo(6, -4, 6, 4, 0, 8);
+          ctx.bezierCurveTo(-6, 4, -6, -4, 0, -8);
+          ctx.fillStyle = '#fdf6f0';
+          ctx.fill();
+
+          // Tiny signature orange-gold stem tip
+          ctx.beginPath();
+          ctx.arc(0, 7.5, 2.1, 0, Math.PI * 2);
+          ctx.fillStyle = '#e87a48';
+          ctx.fill();
+        } else {
+          // Soft Cherry Blossom / Rose-Gold Petal
+          const grad = ctx.createLinearGradient(0, -8, 0, 8);
+          grad.addColorStop(0, '#fdf6f0');
+          grad.addColorStop(0.55, '#f4b8c8');
+          grad.addColorStop(1, '#d9829b');
+          ctx.beginPath();
+          ctx.moveTo(0, -8);
+          ctx.bezierCurveTo(7, -3, 5, 6, 0, 8);
+          ctx.bezierCurveTo(-5, 6, -7, -3, 0, -8);
+          ctx.fillStyle = grad;
+          ctx.fill();
+        }
+
+        ctx.restore();
+      }
+
+      // 5d. Interactive Cursor / Touch Trail Sparkles
+      const touchSparkles = [];
+      let lastTrailTime = 0;
+
+      function emitTouchTrail(x, y) {
+        const now = performance.now();
+        if (now - lastTrailTime < 28) return;
+        lastTrailTime = now;
+
+        for (let i = 0; i < 3; i++) {
+          touchSparkles.push({
+            x: x + (Math.random() - 0.5) * 14,
+            y: y + (Math.random() - 0.5) * 14,
+            vx: (Math.random() - 0.5) * 1.1,
+            vy: -(Math.random() * 0.9 + 0.25),
+            size: Math.random() * 2.5 + 1.1,
+            alpha: 0.95,
+            decay: Math.random() * 0.022 + 0.016,
+            isGold: Math.random() > 0.5
+          });
+        }
+      }
+
+      window.addEventListener('mousemove', (e) => emitTouchTrail(e.clientX, e.clientY));
+      window.addEventListener(
+        'touchmove',
+        (e) => {
+          if (e.touches && e.touches[0]) {
+            emitTouchTrail(e.touches[0].clientX, e.touches[0].clientY);
+          }
+        },
+        { passive: true }
+      );
+      window.addEventListener(
+        'touchstart',
+        (e) => {
+          if (e.touches && e.touches[0]) {
+            emitTouchTrail(e.touches[0].clientX, e.touches[0].clientY);
+          }
+        },
+        { passive: true }
+      );
+
+      // 5e. Graceful Rose-Gold & Champagne Fireworks
+      const fireworks = [];
+      function spawnRoseFirework(cx, cy) {
+        const x = cx ?? width * (0.2 + Math.random() * 0.6);
+        const y = cy ?? height * (0.14 + Math.random() * 0.34);
+        const palette = ['#fdf6f0', '#f4b8c8', '#e6c37a', '#f7cad8', '#ffe8b8'];
+        const count = 48;
+
+        for (let i = 0; i < count; i++) {
+          const angle = (Math.PI * 2 * i) / count + (Math.random() - 0.5) * 0.18;
+          const speed = Math.random() * 3.4 + 1.2;
+          fireworks.push({
+            x,
+            y,
+            vx: Math.cos(angle) * speed,
+            vy: Math.sin(angle) * speed,
+            color: palette[Math.floor(Math.random() * palette.length)],
+            alpha: 1,
+            decay: Math.random() * 0.014 + 0.011,
+            size: Math.random() * 2.2 + 1
+          });
+        }
+      }
+
+      let lastFireworkTimestamp = 0;
+
+      function animateTwilightCanvas(timestamp) {
+        ctx.clearRect(0, 0, width, height);
+
+        // 1. Twinkling Stars
+        for (let i = 0; i < stars.length; i++) {
+          const s = stars[i];
+          s.phase += s.speed;
+          const alpha = 0.2 + ((Math.sin(s.phase) + 1) / 2) * s.baseAlpha;
+          ctx.beginPath();
+          ctx.arc(s.x % width, s.y % height, s.r, 0, Math.PI * 2);
+          ctx.fillStyle =
+            s.tint === 'rose'
+              ? `rgba(244, 184, 200, ${alpha})`
+              : `rgba(253, 246, 240, ${alpha})`;
+          ctx.fill();
+        }
+
+        // 2. Drifting Fireflies & Rose-Gold Dust
+        for (let i = 0; i < fireflies.length; i++) {
+          const f = fireflies[i];
+          f.x += f.vx;
+          f.y += f.vy;
+          f.pulsePhase += 0.03;
+
+          if (f.y < -12) {
+            f.y = height + 12;
+            f.x = Math.random() * width;
+          }
+          if (f.x < -12) f.x = width + 12;
+          if (f.x > width + 12) f.x = -12;
+
+          const glowAlpha = 0.22 + ((Math.sin(f.pulsePhase) + 1) / 2) * 0.55;
+          ctx.beginPath();
+          ctx.arc(f.x, f.y, f.size, 0, Math.PI * 2);
+          ctx.fillStyle = f.isWarmGold
+            ? `rgba(230, 195, 122, ${glowAlpha})`
+            : `rgba(244, 184, 200, ${glowAlpha})`;
+          ctx.fill();
+        }
+
+        // 3. Falling Shiuli & Blossom Petals
+        for (let i = 0; i < petals.length; i++) {
+          const p = petals[i];
+          p.y += p.vy;
+          p.swayPhase += p.swaySpeed;
+          p.x += Math.sin(p.swayPhase) * p.swayAmp;
+          p.rotation += p.rotSpeed;
+
+          if (p.y > height + 28) {
+            petals[i] = createPetal(false);
+          }
+          drawPetal(p);
+        }
+
+        // 4. Touch / Cursor Stardust Trail
+        for (let i = touchSparkles.length - 1; i >= 0; i--) {
+          const sp = touchSparkles[i];
+          sp.x += sp.vx;
+          sp.y += sp.vy;
+          sp.alpha -= sp.decay;
+
+          if (sp.alpha <= 0) {
+            touchSparkles.splice(i, 1);
+            continue;
+          }
+
+          ctx.beginPath();
+          ctx.arc(sp.x, sp.y, sp.size, 0, Math.PI * 2);
+          ctx.fillStyle = sp.isGold
+            ? `rgba(230, 195, 122, ${sp.alpha})`
+            : `rgba(244, 184, 200, ${sp.alpha})`;
+          ctx.fill();
+        }
+
+        // 5. Midnight Celebration Fireworks
+        if (state.isMidnightMode && state.isUnveiled && timestamp - lastFireworkTimestamp > 1750) {
+          spawnRoseFirework();
+          lastFireworkTimestamp = timestamp;
+        }
+
+        for (let i = fireworks.length - 1; i >= 0; i--) {
+          const fw = fireworks[i];
+          fw.x += fw.vx;
+          fw.y += fw.vy;
+          fw.vy += 0.03;
+          fw.vx *= 0.985;
+          fw.alpha -= fw.decay;
+
+          if (fw.alpha <= 0) {
+            fireworks.splice(i, 1);
+            continue;
+          }
+
+          ctx.save();
+          ctx.globalAlpha = Math.max(0, fw.alpha);
+          ctx.beginPath();
+          ctx.arc(fw.x, fw.y, fw.size, 0, Math.PI * 2);
+          ctx.fillStyle = fw.color;
+          ctx.fill();
+          ctx.restore();
+        }
+
+        requestAnimationFrame(animateTwilightCanvas);
+      }
+
+      requestAnimationFrame(animateTwilightCanvas);
+
+      /* -------------------------------------------------------------------
+         6. LIVE MIDNIGHT COUNTDOWN (2026-11-16T00:00:00+06:00)
+         ------------------------------------------------------------------- */
+      function padTwo(num) {
+        return String(Math.max(0, Math.floor(num))).padStart(2, '0');
+      }
+
+      function getTargetTimestamp() {
+        const parsed = Date.parse(config.targetDateTime || '2026-11-16T00:00:00+06:00');
+        return Number.isNaN(parsed) ? Date.parse('2026-11-16T00:00:00+06:00') : parsed;
+      }
+
+      function setMidnightCelebration(active) {
+        if (state.isMidnightMode === active) return;
+        state.isMidnightMode = active;
+
+        if (active) {
+          countdownContainer.classList.add('hidden');
+          celebrationContainer.classList.remove('hidden');
+          if (state.isUnveiled) {
+            spawnRoseFirework(width * 0.32, height * 0.28);
+            setTimeout(() => spawnRoseFirework(width * 0.68, height * 0.25), 360);
+          }
+        } else {
+          celebrationContainer.classList.add('hidden');
+          countdownContainer.classList.remove('hidden');
+        }
+      }
+
+      function updateCountdown() {
+        const now = Date.now();
+        const diff = getTargetTimestamp() - now;
+
+        if (state.previewMidnightOverride || diff <= 0) {
+          setMidnightCelebration(true);
+          return;
+        }
+
+        setMidnightCelebration(false);
+
+        const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+        const minutes = Math.floor((diff / (1000 * 60)) % 60);
+        const seconds = Math.floor((diff / 1000) % 60);
+
+        cdDaysEl.textContent = padTwo(days);
+        cdHoursEl.textContent = padTwo(hours);
+        cdMinutesEl.textContent = padTwo(minutes);
+        cdSecondsEl.textContent = padTwo(seconds);
+      }
+
+      updateCountdown();
+      setInterval(updateCountdown, 1000);
+
+      /* -------------------------------------------------------------------
+         7. ENTRY VEIL UNVEIL INTERACTION
+         ------------------------------------------------------------------- */
+      unveilBtn.addEventListener('click', () => {
+        state.isUnveiled = true;
+        entryVeil.classList.add('veil-lifted');
+        startMusic();
+        spawnRoseFirework(width * 0.5, height * 0.3);
+        if (state.isMidnightMode) {
+          setTimeout(() => spawnRoseFirework(width * 0.28, height * 0.26), 380);
+          setTimeout(() => spawnRoseFirework(width * 0.72, height * 0.26), 680);
+        }
+      });
+
+      /* -------------------------------------------------------------------
+         8. 3D WAX-SEALED ENVELOPE & STANZA-BY-STANZA LETTER REVEAL
+         ------------------------------------------------------------------- */
+      function openPoeticLetter() {
+        if (state.isLetterOpen) return;
+        state.isLetterOpen = true;
+
+        secretEnvelope.classList.add('envelope-opened');
+        if (!config.customAudioDataUrl) {
+          tubaSynth.playUnfoldChime();
+        }
+        spawnRoseFirework(width * 0.5, height * 0.38);
+
+        setTimeout(() => {
+          envelopeWrapper.classList.add('hidden');
+          letterPaper.classList.remove('hidden');
+
+          requestAnimationFrame(() => {
+            letterPaper.classList.remove('opacity-0', 'translate-y-6');
+            letterPaper.classList.add('opacity-100', 'translate-y-0');
+
+            // Staggered stanza-by-stanza ink fade-in
+            const stanzas = letterStanzasContainer.querySelectorAll('.letter-stanza');
+            stanzas.forEach((stanzaEl, idx) => {
+              setTimeout(() => {
+                stanzaEl.classList.add('stanza-visible');
+              }, 260 + idx * 380);
+            });
+
+            setTimeout(() => {
+              letterClosingBlock.classList.add('stanza-visible');
+            }, 260 + stanzas.length * 380);
+          });
+        }, 720);
+      }
+
+      function foldPoeticLetter() {
+        state.isLetterOpen = false;
+        letterPaper.classList.add('opacity-0', 'translate-y-6');
+        letterPaper.classList.remove('opacity-100', 'translate-y-0');
+
+        setTimeout(() => {
+          letterPaper.classList.add('hidden');
+          envelopeWrapper.classList.remove('hidden');
+          secretEnvelope.classList.remove('envelope-opened');
+          renderLetterStanzas(false);
+        }, 480);
+      }
+
+      secretEnvelope.addEventListener('click', openPoeticLetter);
+      secretEnvelope.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          openPoeticLetter();
+        }
+      });
+      foldLetterBtn.addEventListener('click', foldPoeticLetter);
+
+      /* -------------------------------------------------------------------
+         9. CREATOR CUSTOMIZATION DRAWER & CLEAN STANDALONE HTML EXPORT
+         ------------------------------------------------------------------- */
+      if (!config.isFinalRecipientBuild && creatorTrigger && creatorDrawer) {
+        function openDrawer() {
+          creatorDrawer.classList.remove('hidden');
+          creatorDrawer.setAttribute('aria-hidden', 'false');
+        }
+
+        function closeDrawer() {
+          creatorDrawer.classList.add('hidden');
+          creatorDrawer.setAttribute('aria-hidden', 'true');
+        }
+
+        creatorTrigger.addEventListener('click', openDrawer);
+        closeDrawerBtn.addEventListener('click', closeDrawer);
+        drawerBackdrop.addEventListener('click', closeDrawer);
+
+        inputRecipientName.addEventListener('input', (e) => {
+          config.recipientName = e.target.value;
+          applyConfigToDOM();
+        });
+
+        inputTargetDatetime.addEventListener('input', (e) => {
+          config.targetDateTime = e.target.value;
+          updateCountdown();
+        });
+
+        inputLetterBody.addEventListener('input', (e) => {
+          config.letterBody = e.target.value;
+          applyConfigToDOM();
+        });
+
+        inputLetterClosing.addEventListener('input', (e) => {
+          config.letterClosing = e.target.value;
+          applyConfigToDOM();
+        });
+
+        inputLetterSignature.addEventListener('input', (e) => {
+          config.letterSignature = e.target.value;
+          applyConfigToDOM();
+        });
+
+        inputCustomAudio.addEventListener('change', (e) => {
+          const file = e.target.files && e.target.files[0];
+          if (!file) return;
+          const reader = new FileReader();
+          reader.onload = function (loadEvt) {
+            config.customAudioDataUrl = loadEvt.target.result;
+            config.customAudioName = file.name.replace(/\.[^/.]+$/, '');
+            selectedAudioLabel.textContent = 'বর্তমান সুর: ' + config.customAudioName;
+            applyConfigToDOM();
+            if (state.isPlayingMusic) startMusic();
+            showToast('তোমার পছন্দের গানটি যুক্ত হয়েছে!');
+          };
+          reader.readAsDataURL(file);
+        });
+
+        resetBuiltinAudioBtn.addEventListener('click', () => {
+          config.customAudioDataUrl = '';
+          config.customAudioName = 'তুবার নামের সুরলিপি (T · U · B · A Nocturne)';
+          selectedAudioLabel.textContent = 'বর্তমান সুর: ' + config.customAudioName;
+          inputCustomAudio.value = '';
+          applyConfigToDOM();
+          if (state.isPlayingMusic) startMusic();
+          showToast('তুবার নামের T·U·B·A সুর ফিরিয়ে আনা হয়েছে।');
+        });
+
+        toggleMidnightPreview.addEventListener('change', (e) => {
+          state.previewMidnightOverride = e.target.checked;
+          updateCountdown();
+          if (e.target.checked) {
+            showToast('রাত ১২টার জাদু প্রিভিউ চালু হয়েছে ✨');
+          }
+        });
+
+        // Export Standalone Clean HTML File for Tuba
+        exportFinalHtmlBtn.addEventListener('click', () => {
+          try {
+            const docClone = document.documentElement.cloneNode(true);
+
+            const finalConfig = {
+              recipientName: (config.recipientName || '').trim() || 'তুবা',
+              targetDateTime: config.targetDateTime || '2026-11-16T00:00:00+06:00',
+              letterBody: config.letterBody || '',
+              letterClosing: config.letterClosing || 'শুভ জন্মদিন, তুবা।',
+              letterSignature: config.letterSignature || '— নক্ষত্রের আড়াল থেকে, শুধু তোমারই এক শুভাকাঙ্ক্ষী',
+              customAudioDataUrl: config.customAudioDataUrl || '',
+              customAudioName: config.customAudioName || 'তুবার নামের সুরলিপি (T · U · B · A Nocturne)',
+              isFinalRecipientBuild: true
+            };
+
+            const cloneConfigScript = docClone.querySelector('#surprise-config-data');
+            if (cloneConfigScript) {
+              cloneConfigScript.textContent = JSON.stringify(finalConfig, null, 2);
+            }
+
+            // Remove creator controls completely
+            const cloneTrigger = docClone.querySelector('#creator-trigger');
+            const cloneDrawer = docClone.querySelector('#creator-drawer');
+            if (cloneTrigger) cloneTrigger.remove();
+            if (cloneDrawer) cloneDrawer.remove();
+
+            // Reset entry veil & letter envelope states so Tuba experiences it from the beginning
+            const cloneVeil = docClone.querySelector('#entry-veil');
+            if (cloneVeil) cloneVeil.classList.remove('veil-lifted');
+
+            const cloneEnvelopeWrapper = docClone.querySelector('#envelope-wrapper');
+            const cloneEnvelope = docClone.querySelector('#secret-envelope');
+            const cloneLetter = docClone.querySelector('#letter-paper');
+            if (cloneEnvelopeWrapper) cloneEnvelopeWrapper.classList.remove('hidden');
+            if (cloneEnvelope) cloneEnvelope.classList.remove('envelope-opened');
+            if (cloneLetter) {
+              cloneLetter.classList.add('hidden', 'opacity-0', 'translate-y-6');
+              cloneLetter.classList.remove('opacity-100', 'translate-y-0');
+            }
+
+            const cloneToast = docClone.querySelector('#toast-banner');
+            if (cloneToast) {
+              cloneToast.classList.add('opacity-0', '-translate-y-4');
+              cloneToast.classList.remove('opacity-100', 'translate-y-0');
+            }
+
+            const finalHtmlString = '<!DOCTYPE html>\n' + docClone.outerHTML;
+            const blob = new Blob([finalHtmlString], { type: 'text/html;charset=utf-8' });
+            const url = URL.createObjectURL(blob);
+
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = 'tuba-birthday-16-nov-2026.html';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+
+            setTimeout(() => URL.revokeObjectURL(url), 2000);
+            showToast('ফাইনাল ওয়েবসাইটটি ডাউনলোড হয়েছে! এখন শুধু তুবাকে পাঠিয়ে দাও।');
+          } catch (err) {
+            console.error('Export failed:', err);
+            showToast('ফাইল ডাউনলোড করতে সামান্য সমস্যা হয়েছে, আবার চেষ্টা করো।');
+          }
+        });
+      }
+
+      // Initial DOM Hydration
+      applyConfigToDOM();
+    })();
+  </script>
+</body>
+</html>
+```
